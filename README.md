@@ -1,37 +1,33 @@
-# Nagłówek
+# Markdown Issue
 
-paragraf1
+## Tabela
 
-paragraf2
+| Nagłówek 1 | Nagłówek 2 | Nagłówek 3 |
+|:----------:|:----------:|:----------:|
+|    Treść   |   Treść    |   Treść    |
+|    Treść   |   Treść    |   Treść    |
+|    Treść   |   Treść    |   Treść    |
 
-paragraf3
+## Kod Python
 
-**paragraf pogrubiony**
+```python
+def hello_world():
+    print("Hello, world!")
 
-*kursywa*
+hello_world()
+Stopka
+To jest element dokumentu z~stopką1.
 
-~~przekreslone~~
+Oznaczone nagłówki
+Sekcja 1
+Przykładowy tekst dla sekcji 1.
 
->cytat
+Sekcja 2
+Przykładowy tekst dla sekcji 2.
 
-lista numeryczna
-- 1\.Punkt
-    - 1.1\.Podpunkt
-    - 1.2\.Podpunkt
-- 2\.Punkt
-
-lista nienumeryczna
-- punkt
-  - podpunkt
-- punkt2
-  - podpunkt
-  - podpunkt2
-
- ```
-a = 1
-b = 2
-sum = a + b
-print("Suma a i b to", sum)
-```
-
-Fragment kodu zgagnieżdżony w tekście `print("Hello, World")`
+Lista zadań
+ Zadanie 1
+ Zadanie 2
+ Zadanie 3
+Emotikony
+:+1::smile:
